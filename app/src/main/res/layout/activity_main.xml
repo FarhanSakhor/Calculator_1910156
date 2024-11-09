@@ -12,7 +12,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/solutionText"
-        android:text="0"
+        android:text=""
         android:textSize="60dp"
         android:layout_margin="20dp"
         android:textColor="@color/white"
@@ -43,13 +43,13 @@
             android:orientation="horizontal">
 
             <Button
-                android:id="@+id/butC"
+                android:id="@+id/butAC"
                 android:layout_width="72dp"
                 android:layout_height="72dp"
                 android:layout_margin="13dp"
                 android:backgroundTint="@color/red"
-                android:text="C"
-                android:textSize="35sp" />
+                android:text="AC"
+                android:textSize="18sp" />
             <Button
                 android:layout_width="72dp"
                 android:layout_height="72dp"
@@ -71,9 +71,9 @@
                 android:layout_height="72dp"
                 android:layout_margin="13dp"
                 android:backgroundTint="@color/red"
-                android:text="D"
-                android:textSize="35sp"
-                android:id="@+id/butD"/>
+                android:text="DEL"
+                android:textSize="13sp"
+                android:id="@+id/butDel"/>
 
         </LinearLayout>
         <LinearLayout
