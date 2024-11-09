@@ -15,7 +15,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     TextView resultText, solutionText;
     Button but1, but2, but3, but4, but5, but6, but7, but8, but9, but0, butDot;
-    Button butPlus, butMinus, butMultiply, butDivision, butEqual;
+    Button butPlus, butMinus, butMultiply, butDivision, butEqual, butRightPar, butLeftPar;
     Button butAC, butDel;
 
     @Override
@@ -36,6 +36,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         assignId(but7, R.id.but7);
         assignId(but8, R.id.but8);
         assignId(but9, R.id.but9);
+        assignId(butRightPar, R.id.butRightPar);
+        assignId(butLeftPar, R.id.butLeftPar);
         assignId(butDot, R.id.butDot);
         assignId(butPlus, R.id.butPlus);
         assignId(butMinus, R.id.butMinus);
